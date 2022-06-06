@@ -73,6 +73,10 @@ box-sizing: border-box;
     
 }
 
+.encima:hover {
+    transition: 0.1s;
+    transform: scale(1.1,1.1);
+}
 .novedadesDelMes{ 
     padding: 1rem 1.4rem;
     display: grid;
@@ -118,7 +122,10 @@ box-sizing: border-box;
      flex-direction: column;
 
 }
-
+.contenedor:hover {
+    transition: 0.1s;
+    transform: scale(1.1,1.1);
+}
 .texto-encima {
    background-color: rgba(255, 192, 203, 0.664);
    font-family: 'Kanit', sans-serif;
@@ -129,10 +136,11 @@ box-sizing: border-box;
 /*cursos*/
 
 .contenedorPadre--tutorial {
+    padding: 1rem;
         background-color: #f7f7f7;
        display: grid;
-       grid-template-columns: 1fr;
-       grid-template-rows: 1fr 1fr ;
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 1fr ;
         font-family: 'Kanit', sans-serif;
 
 }
@@ -221,7 +229,31 @@ box-sizing: border-box;
     color: #6a677d;
 }
 
+/* nosotros*/
+.nosotrosDescrip {
+      padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 
+}
+.imgNosotros {
+   background-image: url(../assets/pexels-photo-7256583.webp);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 40vh;
+   text-align: center;
+   font-family: 'Kanit', sans-serif;
+   align-items: center;
+   justify-items: center;
+
+}
+.imgNosotros, p {
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+   align-items: center;
+}
 
 
 /*media querie */
@@ -275,7 +307,7 @@ display: none;
       display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align:justify;
+
  }
  .nuestrasRedes {
     display:flex;
@@ -290,7 +322,11 @@ display: none;
 
 
 
-
+/*media cursos*/
+.contenedorPadre--tutorial {
+       
+    display: flex;
+    flex-direction: column;
 
 
 }
@@ -334,4 +370,14 @@ display: none;
 
 
 
+    }
+
+    /*media cursos*/
+    .contenedorPadre--tutorial {
+       
+           display: grid;
+           grid-template-columns: 1fr;
+           grid-template-rows: 1fr 1fr ;
+            font-family: 'Kanit', sans-serif;
+    
     }
