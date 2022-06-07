@@ -335,6 +335,10 @@ display: none;
     background-color: #f7f7f7;
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+}
 
 
 /*media cursos*/
@@ -368,6 +372,11 @@ display: none;
         display: block;
          
         }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
 
 
     .lugar{ 
