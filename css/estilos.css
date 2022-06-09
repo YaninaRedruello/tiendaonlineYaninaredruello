@@ -3,13 +3,45 @@ padding: 0;
 box-sizing: border-box;
 }
 
+
+
+/*boostrapclases*/
+.footerBoost {
+    height: 150px;
+    background-color: #ffc0cb;
+}
+.inconosredes a {
+    text-decoration: none;
+    color: #c951a2;
+    font-size: 25px;
+    margin: 5px;
+}
+.inconosredes a i:hover {
+transform: rotate(360deg);
+transition: 1s;
+}
+.headerBoost div ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoboost {
+    height: 150px;
+}
+
 .header{
     background-color: #6a677d;
     display: flex;
     justify-content: center;
     align-items: center;
+
     flex-direction: column;
     padding: 1rem;
+}
+
+.header__list a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 
@@ -49,6 +81,9 @@ box-sizing: border-box;
      text-decoration: none;
 
      
+}
+.btn {
+    color: pink;
 }
 
 .main__fondo--abajo {
