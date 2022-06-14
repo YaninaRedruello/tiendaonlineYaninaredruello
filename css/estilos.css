@@ -20,9 +20,9 @@ box-sizing: border-box;
 transform: rotate(360deg);
 transition: 1s;
 }
-.headerBoost div ul {
+.mi__flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
 }
 
 .logoboost {
