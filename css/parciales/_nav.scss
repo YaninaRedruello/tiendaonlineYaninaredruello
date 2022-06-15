@@ -1,0 +1,23 @@
+.header__flex{
+    display: flex;
+    justify-content: end;
+}
+
+.header__list{
+    list-style: none;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    background-color: pink;
+    padding: 0.4rem;
+    
+}
+.header__item:hover {
+  background-color: #6a677d86;
+    transition-duration: 1.5s;
+}
+
+
+.header__item{
+    margin: 0px 1rem; 
+    list-style: none;
+}
