@@ -45,7 +45,7 @@
   transition: 1s;
 }
 
-.main__fondo {
+.main__fondo, h2, h3 {
   background-color: pink;
   color: #6a677d;
   position: relative;

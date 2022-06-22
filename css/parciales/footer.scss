@@ -4,11 +4,20 @@
 }
 .inconosredes a {
     text-decoration: none;
-    color: #c951a2;
+    color: map-get($color, rosa);
     font-size: 25px;
     margin: 5px;
 }
 .inconosredes a i:hover {
 transform: rotate(360deg);
 transition: 1s;
+}
+
+h2 {
+    @extend .main__fondo
+}
+
+h3 {
+
+    @extend .main__fondo
 }
