@@ -15,36 +15,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-light flex-fill">
-    <div class="container-fluid ">
+  
+  <nav class="navbar navbar-expand-lg  flex-fill class=" navbar" style="background-color: #fff6f4;">
+    <div class="container-fluid">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">
           <img src="../assets/logo retro.png"  height="150" class="d-inline-block align-text-top">
         </a>
       </div>
-      <div class="collapse navbar-collapse mi__flex" id="navbarTogglerDemo03">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 "  >
-          <li class="nav-item">
-            <a class="nav-link active header__item" aria-current="page" href="../vistas/productos.html"> PRODUCTOS</a>
-          </li>
-          <li class="nav-item header__item">
-            <a class="nav-link" href="../vistas/cursos.html">CURSOS</a>
-          </li>
-          <li class="nav-item header__item">
-            <a class="nav-link" href="../vistas/nosotros.html">NOSOTROS</a>
-          </li>
-          <li class="nav-item header__item">
-            <a class="nav-link" href="../vistas/contacto.html">CONTACTO</a>
-          </li>
+
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
           
-        </ul>
-      </div>
-    </div>
-  </nav>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../vistas/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../vistas/cursos.html">Cursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../vistas/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../vistas/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+</nav>
 <h1 class="main__fondo">Ponete en contacto con nosotros.</h1>
     
         <!--inicio de formulario de contacto-->
-    <div class="mb-4 container">
+   <section class="contactoContenedor">
+        <div class="mb-4 container">
         <label for="exampleFormControlInput1" class="form-label">Email </label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
       </div>
@@ -55,6 +65,7 @@
         <div class="container d-grid gap-2 d-md-flex justify-content-md-end">
             <button class="btn btn-primary me-md-2" type="button">ENVIAR</button>
         </div>
+      </section>
    <!-- inicio de footer --> 
    <footer class= "footerBoost text-center pt-2">
     <section class="row">
